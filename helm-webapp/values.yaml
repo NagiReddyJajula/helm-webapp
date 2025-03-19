@@ -6,8 +6,8 @@ configmap:
     CUSTOM_HEADER: 'This app was deployed with helm!'
 
 image:
-  name: eyesoncloud/webapp
-  tag: 34
+  name: njajula/helm-webapp
+  tag: 35
 
 service:
   type: ClusterIP
