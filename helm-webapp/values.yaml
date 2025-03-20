@@ -1,5 +1,7 @@
 appName: myhelmapp
 
+ngnixservice: nginx-service
+
 configmap:
   name: myhelmapp-configmap-v1
   data:

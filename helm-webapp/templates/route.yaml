@@ -1,9 +1,9 @@
 apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
-  name: {{ .Values.appName }}-route
+  name: {{ .Values.ngnixservice }}-route
   labels:
-    app: {{ .Values.appName }}
+    app: {{ .Values.ngnixservice }}
     environment: dev
 spec:
   to:
